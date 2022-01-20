@@ -1,33 +1,33 @@
 # SCHED
- a simple command line scheduler that doesn't get in your way
+ a simple command line scheduler. made because i was sick of using calendar apps and excel to keep track of assignments
  
  compile to exe with PyInstaller and add to PATH for optimal experience.
  
  Arguments:
  schedule.py <list|add|remove|done|edit> [-a <task name>] [-d <date info>] [-n <additional notes>] [-f]
  
- list:
- lists all unfinished tasks. use -f flag to show all tasks
+ list:<br />
+ lists all unfinished tasks. use -f flag to show all tasks<br />
  
- add:
- requires -a <task name> and -d <date info>
- optional -n <additional notes>
- adds the specified task to the local task json file
+ add:<br />
+ requires -a <task name> and -d <date info><br />
+ optional -n <additional notes><br />
+ adds the specified task to the local task json file<br />
  
- remove:
- requires -a <task name>
- removes an unfinished task with the specified name from the local task json file
+ remove:<br />
+ requires -a <task name><br />
+ removes an unfinished task with the specified name from the local task json file<br />
  
- done:
- requires -a <task name>
- tags a task as done. will not show up in list unless -f flag is used.
+ done:<br />
+ requires -a <task name><br />
+ tags a task as done. will not show up in list unless -f flag is used.<br />
  
- edit:
- requires -a <task name>
- updates a task to contain new info for -d <date info> and -n <additional notes>
+ edit:<br />
+ requires -a <task name><br />
+ updates a task to contain new info for -d <date info> and -n <additional notes><br />
  
- TASK JSON FILE:
- specified in path variable of included file config_scheduler.json which should be in the same directory as the executable or python file.
+ TASK JSON FILE:<br />
+ specified in path variable of included file config_scheduler.json which should be in the same directory as the executable or python file.<br />
  
  
  
