@@ -1,5 +1,5 @@
 # SCHED
- a simple command line scheduler that doesn't get in your way
+ a simple command line scheduler.
  
  compile to exe with PyInstaller and add to PATH for optimal experience.
  
