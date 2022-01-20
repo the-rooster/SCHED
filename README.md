@@ -1,5 +1,5 @@
 # SCHED
- a simple command line scheduler.
+ a simple command line scheduler. made because i was sick of using calendar apps and excel to keep track of assignments
  
  compile to exe with PyInstaller and add to PATH for optimal experience.
  
